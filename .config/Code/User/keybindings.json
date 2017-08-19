@@ -9,7 +9,7 @@
         "command": "-workbench.action.navigateBack"
     },
     {
-        "key": "ctrl+shift+t",
+        "key": "ctrl+alt+t",
         "command": "workbench.action.terminal.toggleTerminal"
     },
     {
