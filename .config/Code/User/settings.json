@@ -2,5 +2,6 @@
     "editor.fontSize": 12,
     "editor.fontFamily": "DejaVu Sans Mono",
     "window.zoomLevel": 0,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.detectIndentation": true
 }
