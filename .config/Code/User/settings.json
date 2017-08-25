@@ -3,5 +3,7 @@
     "editor.fontFamily": "DejaVu Sans Mono",
     "window.zoomLevel": 0,
     "workbench.startupEditor": "newUntitledFile",
-    "editor.detectIndentation": true
+    "editor.detectIndentation": true,
+    "trailing-spaces.trimOnSave": true,
+    "trailing-spaces.syntaxIgnore": ["markdown"]
 }
