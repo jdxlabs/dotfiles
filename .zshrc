@@ -97,7 +97,6 @@ export PATH=~/.local/bin:$PATH
 alias gd='git diff --ignore-space-change'
 alias gp='git pull'
 alias gb='git branch'
-alias gstat='git status'
 alias greset='git reset --hard HEAD'
 
 # Kubernetes
