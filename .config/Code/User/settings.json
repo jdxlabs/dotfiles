@@ -7,6 +7,6 @@
     "trailing-spaces.trimOnSave": true,
     "trailing-spaces.syntaxIgnore": ["markdown"],
     "terminal.integrated.fontFamily": "DejaVu Sans Mono",
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 13,
     "terminal.integrated.cursorBlinking": true
 }
