@@ -5,5 +5,8 @@
     "workbench.startupEditor": "newUntitledFile",
     "editor.detectIndentation": true,
     "trailing-spaces.trimOnSave": true,
-    "trailing-spaces.syntaxIgnore": ["markdown"]
+    "trailing-spaces.syntaxIgnore": ["markdown"],
+    "terminal.integrated.fontFamily": "DejaVu Sans Mono",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.cursorBlinking": true
 }
