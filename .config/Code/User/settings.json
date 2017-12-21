@@ -8,5 +8,10 @@
     "trailing-spaces.syntaxIgnore": ["markdown"],
     "terminal.integrated.fontFamily": "DejaVu Sans Mono",
     "terminal.integrated.fontSize": 13,
-    "terminal.integrated.cursorBlinking": true
+    "terminal.integrated.cursorBlinking": true,
+    "sublimeTextKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "workbench.panel.location": "bottom"
 }
