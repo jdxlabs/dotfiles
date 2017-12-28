@@ -13,5 +13,8 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
     "editor.formatOnPaste": true,
-    "workbench.panel.location": "bottom"
+    "workbench.panel.location": "bottom",
+    "files.associations": {
+        ".eslintrc": "plaintext"
+    }
 }
