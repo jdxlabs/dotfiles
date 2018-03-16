@@ -13,8 +13,11 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
     "editor.formatOnPaste": true,
-    "workbench.panel.location": "bottom",
+    "workbench.panel.defaultLocation": "bottom",
     "files.associations": {
         ".eslintrc": "plaintext"
+    },
+    "terraform.format": {
+        "formatOnSave": false
     }
 }
