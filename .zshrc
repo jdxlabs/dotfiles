@@ -117,6 +117,7 @@ alias kstop='kubectl stop'
 alias kv='kubectl version'
 
 alias prettyjson='python -mjson.tool'
+alias python='python3'
 
 export AWS_PROFILE=kops
 
