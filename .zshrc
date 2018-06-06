@@ -2,12 +2,19 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/home/jdx/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="robbyrussell"
+
+# Set list of themes to load
+# Setting this variable when ZSH_THEME=random
+# cause zsh load theme from this variable instead of
+# looking in ~/.oh-my-zsh/themes/
+# An empty array have no effect
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 #so as not to be disturbed by Ctrl-S ctrl-Q in terminals:
 stty -ixon
@@ -119,16 +126,7 @@ alias kv='kubectl version'
 alias prettyjson='python -mjson.tool'
 alias python='python3'
 
-export AWS_PROFILE=kops
-
-# Microservices
-export NODE_ENV=dev
-export NODE_PREFIX=devjd
-export CLIENT_ID=2
-export NODE_DEBUG='{"SVC_API":true,"SVC_SCHEDULER":true,"SVC_TOPICS":true,"WKR_INDEXER":true,"WKR_QUALIFIER":true,"WKR_STORAGE":true,"WKR_BROKER":true}'
-export NODE_CONFIG_FILEPATH='/home/jdx/dev/www/microservices/conf-dev.json'
-
+export AWS_PROFILE=awswescale-jd
 
 # private data here..
-
 
