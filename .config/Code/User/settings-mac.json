@@ -1,7 +1,7 @@
 {
-    "editor.fontSize": 12,
+    "editor.fontSize": 11,
     "editor.fontFamily": "DejaVu Sans Mono",
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "workbench.startupEditor": "newUntitledFile",
     "editor.detectIndentation": true,
     "trailing-spaces.trimOnSave": true,
@@ -14,10 +14,14 @@
     "editor.snippetSuggestions": "top",
     "editor.formatOnPaste": true,
     "workbench.panel.defaultLocation": "bottom",
+    "python.linting.pylintEnabled": false,
+    "files.autoSave": "onFocusChange",
     "files.associations": {
         ".eslintrc": "plaintext"
     },
     "terraform.format": {
         "formatOnSave": false
-    }
+    },
+    "git.autofetch": true,
+    "extensions.ignoreRecommendations": true
 }
