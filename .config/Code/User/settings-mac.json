@@ -23,5 +23,6 @@
         "formatOnSave": false
     },
     "git.autofetch": true,
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
+    "diffEditor.ignoreTrimWhitespace": false
 }
