@@ -15,9 +15,13 @@
     "editor.formatOnPaste": true,
     "workbench.panel.defaultLocation": "bottom",
     "files.associations": {
-        ".eslintrc": "plaintext"
+        ".eslintrc": "plaintext",
+        "*.sql": "ini"
     },
     "terraform.format": {
         "formatOnSave": false
-    }
+    },
+    "extensions.ignoreRecommendations": false,
+    "files.autoSave": "off",
+    "git.autofetch": true
 }
