@@ -14,6 +14,14 @@
     "editor.snippetSuggestions": "top",
     "editor.formatOnPaste": true,
     "workbench.panel.defaultLocation": "bottom",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": false,
+    "python.linting.pylintArgs": [
+        "--rcfile",
+        "~/.config/pylintrc"
+    ],
+    "files.autoSave": "onFocusChange",
     "files.associations": {
         ".eslintrc": "plaintext",
         "*.sql": "ini"
@@ -21,7 +29,6 @@
     "terraform.format": {
         "formatOnSave": false
     },
-    "extensions.ignoreRecommendations": false,
-    "files.autoSave": "off",
-    "git.autofetch": true
+    "git.autofetch": true,
+    "extensions.ignoreRecommendations": false
 }
