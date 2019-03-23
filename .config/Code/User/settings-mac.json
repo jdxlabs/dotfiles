@@ -14,7 +14,13 @@
     "editor.snippetSuggestions": "top",
     "editor.formatOnPaste": true,
     "workbench.panel.defaultLocation": "bottom",
-    "python.linting.pylintEnabled": false,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": false,
+    "python.linting.pylintArgs": [
+        "--rcfile",
+        "~/.config/pylintrc"
+    ],
     "files.autoSave": "onFocusChange",
     "files.associations": {
         ".eslintrc": "plaintext"
@@ -24,5 +30,6 @@
     },
     "git.autofetch": true,
     "extensions.ignoreRecommendations": true,
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
+    "java.configuration.checkProjectSettingsExclusions": false
 }
