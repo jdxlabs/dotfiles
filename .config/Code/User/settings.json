@@ -16,7 +16,7 @@
     "workbench.panel.defaultLocation": "bottom",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
-    "python.linting.lintOnSave": false,
+    "python.linting.lintOnSave": true,
     "python.linting.pylintArgs": [
         "--rcfile",
         "~/.config/pylintrc"
