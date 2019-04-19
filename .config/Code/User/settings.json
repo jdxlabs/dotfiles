@@ -29,6 +29,31 @@
     "terraform.format": {
         "formatOnSave": false
     },
+    "yaml.customTags": [
+        "!Base64 mapping",
+        "!ImportValue mapping",
+        "!And sequence",
+        "!Equals sequence",
+        "!GetAtt sequence",
+        "!If sequence",
+        "!FindInMap sequence",
+        "!Join sequence",
+        "!Not sequence",
+        "!Or sequence",
+        "!Select sequence",
+        "!Sub sequence",
+        "!Split sequence",
+        "!Cidr sequence",
+        "!Ref scalar",
+        "!Sub scalar",
+        "!GetAZs scalar",
+        "!GetAtt scalar",
+        "!Condition scalar",
+        "!ImportValue scalar",
+        "!Cidr scalar"
+    ],
+    "yaml.format.enable": true,
+    "yaml.format.proseWrap": "never",
     "git.autofetch": true,
     "extensions.ignoreRecommendations": false
 }
