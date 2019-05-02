@@ -30,5 +30,8 @@
         "formatOnSave": false
     },
     "git.autofetch": true,
-    "extensions.ignoreRecommendations": false
+    "extensions.ignoreRecommendations": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "terraform.telemetry.enabled": false
 }
