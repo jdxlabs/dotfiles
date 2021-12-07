@@ -1,0 +1,37 @@
+{
+    "editor.fontSize": 12,
+    "editor.fontFamily": "DejaVu Sans Mono",
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.detectIndentation": true,
+    "trailing-spaces.trimOnSave": true,
+    "trailing-spaces.syntaxIgnore": ["markdown"],
+    "terminal.integrated.fontFamily": "DejaVu Sans Mono",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.cursorBlinking": true,
+    "sublimeTextKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "workbench.panel.defaultLocation": "bottom",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.pylintArgs": [
+        "--rcfile",
+        "~/.config/pylintrc"
+    ],
+    "files.autoSave": "onFocusChange",
+    "files.associations": {
+        ".eslintrc": "plaintext",
+        "*.sql": "ini"
+    },
+    "terraform.format": {
+        "formatOnSave": false
+    },
+    "git.autofetch": true,
+    "extensions.ignoreRecommendations": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "terraform.telemetry.enabled": false
+}
