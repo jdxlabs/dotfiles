@@ -9,7 +9,6 @@
     "terminal.integrated.fontFamily": "DejaVu Sans Mono",
     "terminal.integrated.fontSize": 13,
     "terminal.integrated.cursorBlinking": true,
-    "sublimeTextKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
     "editor.formatOnPaste": true,
@@ -26,12 +25,9 @@
         ".eslintrc": "plaintext",
         "*.sql": "ini"
     },
-    "terraform.format": {
-        "formatOnSave": false
-    },
     "git.autofetch": true,
     "extensions.ignoreRecommendations": true,
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-    "terraform.telemetry.enabled": false
+    "remote.WSL2.connectionMethod": "localhost",
+    "telemetry.telemetryLevel": "off",
+    "diffEditor.ignoreTrimWhitespace": false
 }
