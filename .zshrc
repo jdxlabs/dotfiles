@@ -61,7 +61,7 @@ stty -ixon
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git git-flow brew history node npm kubectl terraform)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -100,6 +100,9 @@ export PATH=~/.local/bin:$PATH
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+eval "$(fasd --init auto)"
+
 # Git
 alias gd='git diff --ignore-space-change'
 alias gp='git pull'
@@ -108,25 +111,16 @@ alias greset='git reset --hard HEAD'
 
 # Kubernetes
 alias k='kubectl'
-alias kc='kubectl create'
-alias kci='kubectl cluster-info'
-alias kconf='kubectl config'
-alias kd='kubectl describe'
-alias kdel='kubectl delete'
-alias ke='kubectl exec'
-alias kg='kubectl get'
-alias kl='kubectl logs'
-alias kn='kubectl namespace'
-alias kru='kubectl rolling-update'
-alias krun='kubectl run'
-alias ks='kubectl scale'
-alias kstop='kubectl stop'
-alias kv='kubectl version'
+export dry='--dry-run=client'
+export o='-oyaml'
+export f='--force'
 
 alias prettyjson='python -mjson.tool'
 alias python='python3'
 
-export AWS_PROFILE=awswescale-jd
+export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
 
 # private data here..
+
+
 
