@@ -1,7 +1,6 @@
 {
     "editor.fontSize": 11,
     "editor.fontFamily": "DejaVu Sans Mono",
-    "window.zoomLevel": 0,
     "workbench.startupEditor": "newUntitledFile",
     "editor.detectIndentation": true,
     "trailing-spaces.trimOnSave": true,
@@ -23,7 +22,11 @@
     ],
     "files.autoSave": "onFocusChange",
     "files.associations": {
-        ".eslintrc": "plaintext"
+        ".eslintrc": "plaintext",
+        "*.tfvars": "tfvars",
+        "*.tf": "tf",
+        ".envfile": "shellscript",
+        "*.tftpl": "shellscript"
     },
     "terraform.format": {
         "formatOnSave": false
@@ -34,5 +37,24 @@
     "java.configuration.checkProjectSettingsExclusions": false,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "terraform.telemetry.enabled": false
+    "terraform.telemetry.enabled": false,
+    "editor.tabSize": 2,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "[python]": {
+        "gitlens.codeLens.symbolScopes": [
+            "!Module"
+        ],
+        "editor.tabSize": 4,
+        "editor.wordBasedSuggestions": false
+    },
+    "terminal.integrated.scrollback": 100000000,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltdLFwiZm9ybWF0V2lkdGhcIjoyNDAsXCJjcmVhdGVUYXJnZXRcIjpmYWxzZSxcInBhZ2VGb3JtYXRcIjp7XCJ4XCI6MCxcInlcIjowLFwid2lkdGhcIjo4MjcsXCJoZWlnaHRcIjoxMTY5fSxcInNlYXJjaFwiOnRydWUsXCJzaG93U3RhcnRTY3JlZW5cIjp0cnVlLFwiZ3JpZENvbG9yXCI6XCIjZDBkMGQwXCIsXCJkYXJrR3JpZENvbG9yXCI6XCIjNmU2ZTZlXCIsXCJhdXRvc2F2ZVwiOnRydWUsXCJyZXNpemVJbWFnZXNcIjpudWxsLFwib3BlbkNvdW50ZXJcIjowLFwidmVyc2lvblwiOjE4LFwidW5pdFwiOjEsXCJpc1J1bGVyT25cIjpmYWxzZSxcInVpXCI6XCJcIn0ifQ==",
+    "hediet.vscode-drawio.customColorSchemes": [],
+    "workbench.colorTheme": "Visual Studio Dark"
 }
