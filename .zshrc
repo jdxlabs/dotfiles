@@ -105,7 +105,7 @@ eval "$(fasd --init auto)"
 
 # Git
 alias gd='git diff --ignore-space-change'
-alias gp='git pull'
+alias gl='git pull'
 alias gb='git branch'
 alias greset='git reset --hard HEAD'
 
