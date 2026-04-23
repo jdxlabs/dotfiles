@@ -10,7 +10,9 @@
     tree = log --oneline --graph --decorate --all
 
 [pull]
-    rebase = false
+    rebase = true
 
 [push]
     autoSetupRemote = true
+[init]
+    defaultBranch = main
