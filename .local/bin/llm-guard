@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Usage: llm-guard <cmd> <allowed_paths_list> [args...]
+
+CMD_NAME="$1"
+ALLOWED_LIST="$2"
+shift 2
+
+# Convert list to array (separators: : or ,)
+IFS=':,' read -ra ADDR <<< "$ALLOWED_LIST"
+
+VALID=false
+for dir in "${ADDR[@]}"; do
+    eval dir_expanded=$dir # Extends ~ if needed
+    if [[ "$PWD" == "$dir_expanded"* ]]; then
+        VALID=true
+        break
+    fi
+done
+
+if [ "$VALID" = true ]; then
+    exec "$CMD_NAME" "$@"
+else
+    echo "🛡️  [Security Guard]: Execution denied for '$CMD_NAME'."
+    echo "Allowed paths: $ALLOWED_LIST"
+    echo "Current path: $PWD"
+    exit 1
+fi
+
